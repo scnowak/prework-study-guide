@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #6f3fd7;
+
+}
+
+.header {
+    padding: 20px;
+    font: 'Arial Black';
+    background-color: #c841ad;
+    color: #110101;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+    color: #110101;
+    font: 'Arial Black';
+    font-family: "Bodoni MT Black", fantasy, cursive, sans-serif;
+}
+
+
+.header nav {
+    padding-top: 35px;
+    margin-right: 20px;
+    float: right;
+
+    font-size: 20px;
+
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.para1 {
+    font-size: 16px;
+    /* float:inline-start */
+}
+
+.para2 {
+    font-size: 16px;
+    float: inline-start
+}
+
+.hero {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/bkgrndimg1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+
+.side_bar {
+    margin-right: 20px;
+    padding: 20px;
+    /* clear: both; */
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c841ad;
+}
+
+.space1 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.space2 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.space3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.space1 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.space2 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.space3 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.space1 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.space2 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.space3 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.all-about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c841ad;
+    color: #ffffff;
+}
+
+.a-peek-at-my-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c841ad;
+    color: #ffffff;
+}
+
+.image1-style {
+    height: 50px;
+    width: 50px;
+    border: 50px solid black;
+
+    /* Other CSS styles */
+}
+
+
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c841ad;
+    color: #ffffff;
+}
+
+.all-about-me img {
+    max-height: 200px;
+    border: #110101
+}
+
+.a-peek-at-my-work img {
+    max-height: 100px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+/* .hero img:hover{
+    width: 35%;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #110101;
+    transition: .5s ease-in-out;
+} */
+
+@media screen and (max-width: 1200px) { 
+    .content {
+        width: 100%;
+
+    }
+}
